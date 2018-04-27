@@ -1,0 +1,121 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+
+.big-window1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.first-window {
+  height: 661px;
+}
+
+.second-window {
+  height: 661px;
+}
+
+.third-window {
+  height: 661px;
+}
+
+@media only screen and (max-width: 600px) {
+  .big-window1 {
+    display: grid;
+    grid-template-columns: 1fr
+  }
+}
+
+ /*temprature-first-window */
+
+.cold .first-window {
+  background-image: url(/images/tempt-cold.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.warm .first-window {
+  background-image: url(/images/tempt-warm.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.hot .first-window {
+  background-image: url(/images/tempt-hot.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+/*wind-third-window */
+.calm .third-window {
+  background-image: url(/images/wind-calm1.jpg);
+  background-size: 100%;
+
+}
+
+.breezy .third-window {
+  background-image: url(/images/wind-breezy1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.windy .third-window {
+  background-image: url(/images/wind-windy1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*weather-second-window */
+.rain .second-window {
+  background-image: url(/images/weather-rain2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.thunderstorm .second-window {
+  background-image: url(/images/weather-rain2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.drizzle .second-window {
+  background-image: url(/images/weather-rain2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.snow .second-window {
+  background-image: url(/images/weather-snow2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.clear .second-window {
+  background-image: url(/images/weather-clear2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.clouds .second-window {
+  background-image: url(/images/weather-cloudy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mist .second-window {
+  background-image: url(/images/weather-cloudy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.haze .second-window {
+  background-image: url(/images/weather-haze.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}

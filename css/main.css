@@ -53,6 +53,7 @@
 /*wind-third-window */
 .calm .third-window {
   background-image: url(/images/wind-calm1.jpg);
+  background-repeat: no-repeat;
   background-size: 100%;
 
 }

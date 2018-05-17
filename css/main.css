@@ -6,7 +6,7 @@
 .big-window1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0.01px;
+  padding: 10px;
 }
 
 .first-window {

@@ -11,55 +11,67 @@
   <!-- Site Styles -->
   <link rel="stylesheet" href="/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/main.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Karla');
+  </style>
+
 </head>
 
 <body>
 
 <div>
     <!-- Search Box -->
-    <div class="test fl w-100 ma0 pa4">
-    <form id="location-search" class="f6 tc">
-          <span class="code">
-            place:
+    <div class="test fl w-100 ma0 pv4 ph6">
+
+    <form id="location-search" class="location f6 tc">
+          <span class="location">
+            place📍:
           </span>
-          <input type="text" id="area" value="Boston" class="tc f6 code">
+          <input type="text" id="area" value="Boston" class="city_name tc f6 code">
         </h1>
     </form>
     </div>
-    <!-- If there is an error, this box is shown. 'dn' is the only required class -->
-    <div id="error" class="dn code black bg-light-yellow pa4 fixed bottom-0 w-100 tc">
+
+<!-- If there is an error, this box is shown. 'dn' is the only required class -->
+<div id="error" class="dn black bg-light-yellow pa4 fixed bottom-0 w-100 tc">
       ERROR404
-    </div>
+</div>
 
     <!-- cool graphics 2 -->
 
-    <div class="big-window1 ma0">
-
-    <div class="first-window">
+<div class="big-window1 ma0">
+  <div class="first-window">
       <!-- temperature condition -->
-          <p><span id=""></span></p>
+          <div class="f6 pv2 tc black bg-white
+">temperature 🌡️</div>
         </div>
 
 
-      <div class="second-window">
+  <div class="second-window">
         <div>
           <!-- weather condition -->
+        <div class="f6 pv2 tc black bg-white
+">atomosphere 🌦</div>
           <h2><span id=""></span></h2>
         </div>
       </div>
 
-    <div class="third-window">
+  <div class="third-window">
       <div>
       <!-- location condition -->
         <!-- <div class="location"> -->
+          <div class="f6 pv2 tc black bg-white
+">wind 🌬</div>
           <h2><span id=""></span></h2>
           </div>
         </div>
-
       </div>
-
-
 </div>
+
+<div class="footer h1 tc black bg-white f6"> Made with 💖 and css grids by <a href="www.aditi.work"> Aditi </a>
+</div>
+
+
   <!-- Site JavaScript -->
   <script src="/javascript/toggleClass.js" charset="utf-8"></script>
   <script src="/javascript/main.js" charset="utf-8"></script>

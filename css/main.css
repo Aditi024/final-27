@@ -1,12 +1,28 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
+.body {
+  font-family: 'Karla', sans-serif;
+}
 
+.test {
+  font-family: 'Karla', sans-serif;
+}
+
+.location {
+  font-family: 'Karla', sans-serif;
+}
+
+.city_name {
+  font-family: 'Karla', sans-serif;
+}
 
 .big-window1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
+  font-family: 'Karla', sans-serif;
+
 }
 
 .first-window {
@@ -119,4 +135,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
 
+}
+
+.footer {
+  font-family: 'Karla', sans-serif;
 }
